@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="?android:attr/listPreferredItemHeight">
+
+    <TextView
+        android:id="@+id/txtViewPraia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="1dp"
+        tools:text="Novo Item"
+        android:textSize="16sp"></TextView>
+    <TextView
+        android:id="@+id/txtViewCidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        tools:text="Novo Item"
+        android:textSize="16sp"></TextView>
+    <TextView
+        android:id="@+id/txtViewEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        tools:text="Novo Item"
+        android:textSize="16sp"></TextView>
+    <ImageButton
+        android:id="@+id/imageBtnDelete"
+        android:layout_width="wrap_content"
+        android:padding="1dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/baseline_delete_24"></ImageButton>
+</LinearLayout>
